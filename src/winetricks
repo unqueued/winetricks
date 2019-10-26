@@ -15303,7 +15303,7 @@ w_metadata cnc3_demo games \
 
 load_cnc3_demo()
 {
-    w_download "http://largedownloads.ea.com/pub/demos/CommandandConquer3/CnC3Demo.exe" 1e2499f441ef1fc3cbe447ac16361ad4247a02b9b8ec05f504161e7b5b1254e5
+    w_download "https://files.cncnz.com/cc3_tiberium_wars/demo/CnC3Demo.exe" 1e2499f441ef1fc3cbe447ac16361ad4247a02b9b8ec05f504161e7b5b1254e5
 
     w_try_cd "$W_CACHE/$W_PACKAGE"
     w_ahk_do "
